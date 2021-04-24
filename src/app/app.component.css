@@ -19,6 +19,7 @@ h1 {
 
 h4{
     color: darkslateblue;
+    text-align: center;
 }
 
 .purple-border textarea {
@@ -29,7 +30,22 @@ h4{
     box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
 }
 
-.green-border-focus .form-control:focus {
-    border: 1px solid #8bc34a;
-    box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, .25);
-}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: blue;
+    border-color: blueviolet;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+    
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
